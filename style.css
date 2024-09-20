@@ -1,0 +1,74 @@
+body{
+    background-image: url("Assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+   
+    
+}
+
+.Img-container img{
+    
+    width: 200px;
+    height: 240px;
+    border-radius: 200px;
+
+}
+
+.Top-container{
+    display: block;
+    text-align: center;
+    
+    
+
+    
+}
+.Title-container{
+    padding-left: 30px;
+    
+}
+
+.Content-container{
+    padding-left: 10%;
+    padding-right: 12%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background-color: rgb(255, 255, 255,0.6);
+    margin: 10%;
+    border: 2px solid black;
+}
+.Content-container p{
+    font-size: 20px;
+}
+
+.Content-container h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.Credit-container{
+    background-color: rgb(255, 255, 255,0.8);
+    display: flex;
+    border-radius: 20px; 
+    align-items: center;
+    margin: 20px;
+}
+.head-credit{
+    padding-left: 5%;
+}
+
+.Credit-container img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.element{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.element a{
+    text-decoration: none;
+}
